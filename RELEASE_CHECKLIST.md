@@ -2,7 +2,7 @@
 
 ## Files To Upload
 
-- Extension package: `dist/fkshorts-0.1.0.zip`
+- Extension package: `dist/nomoreshorts-0.1.0.zip`
 - Store icon: `assets/icons/icon-128.png`
 - Screenshot: `store-assets/screenshot-1280x800.png`
 - Small promo tile: `store-assets/small-promo-440x280.png`
@@ -10,7 +10,7 @@
 
 ## Dashboard Fields
 
-- Name: `FKshorts - Shorts Remover`
+- Name: `NoMoreShorts`
 - Summary: `Remove YouTube Shorts UI, shelves, links, and Shorts pages.`
 - Category: `Productivity`
 - Language: `English`
@@ -24,5 +24,5 @@
 ```powershell
 npm test
 node -e "JSON.parse(require('fs').readFileSync('manifest.json','utf8')); console.log('manifest ok')"
-tar -tf dist\fkshorts-0.1.0.zip
+tar -tf dist\nomoreshorts-0.1.0.zip
 ```

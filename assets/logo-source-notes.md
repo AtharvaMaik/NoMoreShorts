@@ -1,4 +1,4 @@
-# FKshorts Logo Notes
+# NoMoreShorts Logo Notes
 
 The logo is a project-local SVG mark: a red play tile crossed out by a dark slash.
 

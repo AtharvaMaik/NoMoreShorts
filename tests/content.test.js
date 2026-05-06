@@ -67,8 +67,8 @@ test("manifest includes store-ready icons and action metadata", () => {
   const manifestPath = path.join(__dirname, "..", "manifest.json");
   const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
 
-  assert.equal(manifest.name, "FKshorts - Shorts Remover");
-  assert.equal(manifest.short_name, "FKshorts");
+  assert.equal(manifest.name, "NoMoreShorts");
+  assert.equal(manifest.short_name, "NoMoreShorts");
   assert.equal(manifest.icons["128"], "assets/icons/icon-128.png");
   assert.equal(manifest.action.default_icon["128"], "assets/icons/icon-128.png");
 

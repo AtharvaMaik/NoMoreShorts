@@ -2,7 +2,7 @@
 
 ## Extension Name
 
-FKshorts - Shorts Remover
+NoMoreShorts
 
 ## Summary
 
@@ -18,9 +18,9 @@ English
 
 ## Detailed Description
 
-FKshorts removes YouTube Shorts surfaces from youtube.com so the site stays focused on standard videos.
+NoMoreShorts removes YouTube Shorts surfaces from youtube.com so the site stays focused on standard videos.
 
-It hides Shorts navigation entries, Shorts shelves, Shorts search surfaces, and links that point to `/shorts/`. If a Shorts URL is opened directly, FKshorts redirects the tab back to the YouTube home page.
+It hides Shorts navigation entries, Shorts shelves, Shorts search surfaces, and links that point to `/shorts/`. If a Shorts URL is opened directly, NoMoreShorts redirects the tab back to the YouTube home page.
 
 The extension runs only on YouTube pages. It does not collect, transmit, store, sell, or share personal data.
 
@@ -34,7 +34,7 @@ The extension runs only on YouTube pages. It does not collect, transmit, store, 
 
 ## Single Purpose
 
-FKshorts has one purpose: remove YouTube Shorts UI and prevent direct Shorts pages from being used on youtube.com.
+NoMoreShorts has one purpose: remove YouTube Shorts UI and prevent direct Shorts pages from being used on youtube.com.
 
 ## Permissions Justification
 
@@ -42,7 +42,7 @@ This extension uses a content script on `youtube.com` so it can remove Shorts UI
 
 ## Data Usage Disclosure
 
-FKshorts does not collect or use user data.
+NoMoreShorts does not collect or use user data.
 
 ## Support Contact
 

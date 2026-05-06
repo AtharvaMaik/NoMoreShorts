@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "FKshorts - Shorts Remover",
-  "short_name": "FKshorts",
+  "name": "NoMoreShorts",
+  "short_name": "NoMoreShorts",
   "version": "0.1.0",
   "description": "Remove YouTube Shorts UI, shelves, links, and Shorts pages.",
   "icons": {
@@ -11,7 +11,7 @@
     "128": "assets/icons/icon-128.png"
   },
   "action": {
-    "default_title": "FKshorts",
+    "default_title": "NoMoreShorts",
     "default_icon": {
       "16": "assets/icons/icon-16.png",
       "32": "assets/icons/icon-32.png",

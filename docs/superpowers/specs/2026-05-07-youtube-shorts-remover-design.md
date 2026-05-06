@@ -1,4 +1,4 @@
-# YouTube Shorts Remover Design
+# NoMoreShorts Design
 
 ## Goal
 

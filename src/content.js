@@ -150,11 +150,11 @@
       return;
     }
 
-    window.__fkshortsDebug = window.__fkshortsDebug || {
+    window.__noMoreShortsDebug = window.__noMoreShortsDebug || {
       removedByHeading: 0,
       removedBySelector: 0,
     };
-    window.__fkshortsDebug[key] = (window.__fkshortsDebug[key] || 0) + 1;
+    window.__noMoreShortsDebug[key] = (window.__noMoreShortsDebug[key] || 0) + 1;
   }
 
   function redirectIfShortsLocation() {
