@@ -1,0 +1,16 @@
+a[href^="/shorts/"],
+a[href*="youtube.com/shorts/"],
+ytd-reel-shelf-renderer,
+ytd-shelf-renderer:has(a[href^="/shorts/"]),
+ytd-shelf-renderer:has(a[href*="youtube.com/shorts/"]),
+ytd-rich-shelf-renderer[is-shorts],
+ytd-rich-shelf-renderer:has(a[href^="/shorts/"]),
+ytd-horizontal-card-list-renderer:has(a[href^="/shorts/"]),
+ytd-horizontal-card-list-renderer:has(a[href*="youtube.com/shorts/"]),
+grid-shelf-view-model:has(a[href^="/shorts/"]),
+grid-shelf-view-model:has(a[href*="youtube.com/shorts/"]),
+ytd-mini-guide-entry-renderer[aria-label="Shorts"],
+ytd-guide-entry-renderer:has(a[title="Shorts"]),
+yt-chip-cloud-chip-renderer:has(a[href*="/shorts/"]) {
+  display: none !important;
+}
